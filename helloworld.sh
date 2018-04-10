@@ -4,7 +4,7 @@
 # Use the gputest project
 #$ -P gputest
 #Use the gputest queue
-#$ -qgputest.q 
+#$ -q gputest.q 
 
 # Call the hello world executable
 ./helloworld
